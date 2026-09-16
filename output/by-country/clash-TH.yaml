@@ -5,11 +5,11 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇭 泰国 (Thailand) 01 - xiaohe
-  server: 36.133.78.37
-  port: 50017
+  server: 119.46.51.45
+  port: 37515
   udp: true
   type: vmess
-  uuid: 9195e0f1-f466-4e69-838f-a95519b5d45e
+  uuid: 9b76bc31-17a5-4454-934a-8d5fb602cd70
   alterId: 0
   cipher: auto
 proxy-groups:
