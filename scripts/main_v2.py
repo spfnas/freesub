@@ -63,6 +63,10 @@ SOURCE_URLS = [
     "https://raw.githubusercontent.com/freefq/free/master/v2",
     "https://open.heleimail.workers.dev/",
     "https://www.ermao.net/sub/v2ray/ermao.net",
+    "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/refs/heads/master/list.txt",
+    "https://github.com/cbusifabcap/daily_free_vpn/raw/refs/heads/main/Z.txt",
+    "https://raw.githubusercontent.com/hello-world-1989/cn-news/main/end-gfw-together",
+    
 ]
 
 OUTPUT_DIR = "output"
