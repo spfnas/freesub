@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe
-  server: 213.183.63.60
-  port: 9054
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: VcFuyXvND2yQWSFY
-- name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
   server: 192.145.31.5
   port: 443
   udp: true
@@ -20,7 +13,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
+- name: 🇧🇬 保加利亚 (Bulgaria) 02 - xiaohe
   server: 192.145.31.5
   port: 8443
   udp: true
@@ -30,13 +23,20 @@ proxies:
   servername: neth9.lunariai.ru
   skip-cert-verify: false
   client-fingerprint: chrome
-- name: 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
+- name: 🇧🇬 保加利亚 (Bulgaria) 03 - xiaohe
   server: 213.183.63.60
-  port: 9098
+  port: 9049
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: aLpQtfEZe445QyHk
+  password: PRBf4BS2HvJqtWxY
+- name: 🇧🇬 保加利亚 (Bulgaria) 04 - xiaohe
+  server: 213.183.63.60
+  port: 9061
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: 4R3hUfZ2FHhDmNcP
 - name: 🇧🇬 保加利亚 (Bulgaria) 05 - xiaohe
   server: 193.148.59.178
   port: 443
