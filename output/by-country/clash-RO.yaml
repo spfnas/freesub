@@ -18,10 +18,10 @@ proxies:
   udp: true
   type: hysteria2
   password: gf1:gfhysteria2024
-  sni: whatsapp.com
+  sni: www.amazon.com
   skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 03 - xiaohe
-  server: 85.204.107.175
+  server: 85.204.107.170
   port: 8443
   udp: true
   type: hysteria2
@@ -29,18 +29,18 @@ proxies:
   sni: hopp-romania-new.roxa.org
   skip-cert-verify: true
 - name: 🇷🇴 罗马尼亚 (Romania) 04 - xiaohe
-  server: 46.28.67.55
+  server: 45.43.166.56
   port: 443
   udp: true
   type: vless
-  uuid: d1a6a033-fdbd-46a6-a177-3370ba042b9f
+  uuid: 4CD55C5_trial
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
-    short-id: d06d78e974491b6e
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+    public-key: sEzXu5KZcPPaT5ZKj8gBIOa4ana3Jq75-iZSMQPW9BY
+    short-id: 8c3f17a4d92be560
+  servername: travel.yandex.ru
+  client-fingerprint: firefox
 - name: 🇷🇴 罗马尼亚 (Romania) 05 - xiaohe
   server: 146.70.124.85
   port: 443
@@ -55,20 +55,20 @@ proxies:
   servername: www.datadoghq.com
   client-fingerprint: chrome
 - name: 🇷🇴 罗马尼亚 (Romania) 06 - xiaohe
-  server: 45.43.166.56
+  server: 46.28.67.55
   port: 443
   udp: true
   type: vless
-  uuid: 4CD55C5_trial
+  uuid: d1a6a033-fdbd-46a6-a177-3370ba042b9f
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: sEzXu5KZcPPaT5ZKj8gBIOa4ana3Jq75-iZSMQPW9BY
-    short-id: 8c3f17a4d92be560
-  servername: travel.yandex.ru
-  client-fingerprint: firefox
+    public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
+    short-id: d06d78e974491b6e
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇷🇴 罗马尼亚 (Romania) 07 - xiaohe
-  server: 193.163.203.253
+  server: bl3fk52.sysopnova.art
   port: 443
   udp: true
   type: vless
@@ -81,12 +81,15 @@ proxies:
   servername: yandex.ru
   client-fingerprint: chrome
 - name: 🇷🇴 罗马尼亚 (Romania) 08 - xiaohe
-  server: bogging-eyeteeth-fly.freesocks.work
+  server: 162.249.125.133
   port: 443
   udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
+  type: hysteria2
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  sni: hy2-new.aspidnet.xyz
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
 proxy-groups:
 - name: PROXIES
   type: select
