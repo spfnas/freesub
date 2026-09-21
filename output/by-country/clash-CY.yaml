@@ -28,7 +28,7 @@ proxies:
     public-key: bPbAdn6ogLbiv5cRe5d12EL7FhooAIVrC3-fg90P-Bw
     short-id: 72104d27a0f5f62e
   servername: www.amazon.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select

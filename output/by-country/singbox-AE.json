@@ -8,7 +8,7 @@
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
       "server": "31.58.181.88",
       "server_port": 8443,
-      "uuid": "9386fa46-72be-4cc5-ab87-f23f4c0fe9b7",
+      "uuid": "431acd7d-ef6c-4d2b-b471-bcdddca8050c",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -33,7 +33,7 @@
       "tls": {
         "enabled": true,
         "server_name": "hy2.aspidnet.xyz",
-        "insecure": false
+        "insecure": true
       },
       "obfs": {
         "type": "salamander",
@@ -70,7 +70,7 @@
       "tls": {
         "enabled": true,
         "server_name": "hopp-romania-new.roxa.org",
-        "insecure": true
+        "insecure": false
       }
     },
     {

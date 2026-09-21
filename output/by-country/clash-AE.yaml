@@ -9,7 +9,7 @@ proxies:
   port: 8443
   udp: true
   type: vless
-  uuid: 9386fa46-72be-4cc5-ab87-f23f4c0fe9b7
+  uuid: 431acd7d-ef6c-4d2b-b471-bcdddca8050c
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
@@ -23,7 +23,7 @@ proxies:
   type: hysteria2
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
   sni: hy2.aspidnet.xyz
-  skip-cert-verify: false
+  skip-cert-verify: true
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
@@ -46,7 +46,7 @@ proxies:
   type: hysteria2
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   sni: hopp-romania-new.roxa.org
-  skip-cert-verify: true
+  skip-cert-verify: false
 - name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
   server: 84.235.244.108
   port: 22573
