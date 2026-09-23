@@ -6,15 +6,15 @@
     {
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe",
-      "server": "195.238.126.20",
-      "server_port": 9078,
+      "server": "195.238.126.84",
+      "server_port": 9039,
       "method": "aes-256-cfb",
-      "password": "JCJpbRbQZNw9XFZG"
+      "password": "qYEN5HX4JKeVCdEC"
     },
     {
       "type": "vless",
       "tag": "🇱🇹 立陶宛 (Lithuania) 02 - xiaohe",
-      "server": "84.32.215.5",
+      "server": "84.32.215.94",
       "server_port": 443,
       "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
       "flow": "xtls-rprx-vision",
