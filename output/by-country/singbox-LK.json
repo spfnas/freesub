@@ -7,6 +7,20 @@
       "type": "vless",
       "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe",
       "server": "free.sahanwickramasinghe.me",
+      "server_port": 80,
+      "uuid": "684f9a2e-4f96-497f-bfd9-ff1e34637952",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "free.sahanwickramasinghe.me"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 02 - xiaohe",
+      "server": "free.sahanwickramasinghe.me",
       "server_port": 443,
       "uuid": "3d08ed67-5a47-42d3-a948-ebc7d2eb21f7",
       "tls": {
@@ -21,7 +35,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 02 - xiaohe",
+      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 03 - xiaohe",
       "server": "free.sahanwickramasinghe.me",
       "server_port": 8443,
       "uuid": "c73ffa6e-a102-4984-9176-3e6242c1925e",
@@ -37,20 +51,6 @@
       "transport": {
         "type": "ws",
         "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 03 - xiaohe",
-      "server": "free.sahanwickramasinghe.me",
-      "server_port": 80,
-      "uuid": "684f9a2e-4f96-497f-bfd9-ff1e34637952",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "free.sahanwickramasinghe.me"
-        }
       }
     },
     {
