@@ -6,12 +6,43 @@ log-level: info
 proxies:
 - name: 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
   server: 185.135.86.175
-  port: 9094
+  port: 9082
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: rpgbNnU9rDDU4aWZ
+  password: 45xgMgm386pjWjTx
 - name: 🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe
+  server: 185.135.86.175
+  port: 9034
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: Yg4MbdXFQ9HFFVY6
+- name: 🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe
+  server: 104.165.205.46
+  port: 9443
+  udp: true
+  type: hysteria2
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  sni: onecloudstream.com
+  skip-cert-verify: true
+- name: 🇱🇻 拉脱维亚 (Latvia) 04 - xiaohe
+  server: 104.165.205.142
+  port: 9443
+  udp: true
+  type: hysteria2
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  sni: onecloudstream.com
+  skip-cert-verify: true
+- name: 🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe
+  server: lv02.gotosvo.com
+  port: 9443
+  udp: true
+  type: hysteria2
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  sni: onecloudstream.com
+  skip-cert-verify: true
+- name: 🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe
   server: 138.124.180.137
   port: 443
   udp: true
@@ -24,13 +55,6 @@ proxies:
     short-id: 33acba1b
   servername: www.apple.com
   client-fingerprint: random
-- name: 🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe
-  server: 185.135.86.175
-  port: 9017
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: HAVAdE3nXhqA5nHp
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,6 +63,9 @@ proxy-groups:
   - 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
   - 🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe
   - 🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 04 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -47,5 +74,8 @@ proxy-groups:
   - 🇱🇻 拉脱维亚 (Latvia) 01 - xiaohe
   - 🇱🇻 拉脱维亚 (Latvia) 02 - xiaohe
   - 🇱🇻 拉脱维亚 (Latvia) 03 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 04 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 05 - xiaohe
+  - 🇱🇻 拉脱维亚 (Latvia) 06 - xiaohe
 rules:
 - MATCH,PROXIES
